@@ -5,7 +5,7 @@
 
 
 [Урок 6](exzomotion.github.io/lesson_6/index.html)
-
+ 
 [Урок 6.1](exzomotion.github.io/lesson_6.1/index.html)
 
 [Урок 7](exzomotion.github.io/lesson_7/index.html)
