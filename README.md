@@ -4,4 +4,4 @@
 Мои домашние задания
 
 
-[Урок 6] (exzomotion.github.io/lesson_6/)
+[Урок 6](exzomotion.github.io/lesson_6/)
