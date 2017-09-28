@@ -1,0 +1,20 @@
+a:hover,
+a:focus,
+a:active {
+	text-decoration: ;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+	outline: ;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: ;
+}
