@@ -1,0 +1,21 @@
+.navigation {
+	background-color: #000;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+}
+
+.menu li {
+	display: inline;
+	padding: 20px;
+}
+
+.menu a {
+	color: #fff;	
+}
+
+.text	{
+	margin-top: 80px;
+}
