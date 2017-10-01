@@ -19,3 +19,5 @@
 [Урок 11](exzomotion.github.io/lesson_11/)
 
 [Урок 12](exzomotion.github.io/lesson_12/)
+
+[Практика 1](exzomotion.github.io/lesson_12/)
