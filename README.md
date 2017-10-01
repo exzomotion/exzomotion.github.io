@@ -17,3 +17,5 @@
 [Урок 10](exzomotion.github.io/lesson_10/)
 
 [Урок 11](exzomotion.github.io/lesson_11/)
+
+[Урок 12](exzomotion.github.io/lesson_12/)
