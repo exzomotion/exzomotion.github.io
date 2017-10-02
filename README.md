@@ -20,4 +20,4 @@
 
 [Урок 12](https://exzomotion.github.io/lesson_12/)
 
-[Практика 1](https://exzomotion.github.io/project_1/)
+[Практика 1](https://exzomotion.github.io/praktika_1/)
