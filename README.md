@@ -14,9 +14,9 @@
 
 [Урок 9](https://exzomotion.github.io/lesson_9/)
 
-[Урок 10](https://exzomotion.github.io/lesson_10/)
+[Урок 10](https://yadi.sk/d/BnkQ2BcI3NPf5m/)
 
-[Урок 11](https://exzomotion.github.io/lesson_11/)
+[Урок 11](https://https://yadi.sk/d/LYaLDnHS3NPf5s/)
 
 [Урок 12](https://exzomotion.github.io/lesson_12/)
 
