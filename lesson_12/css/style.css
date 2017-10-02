@@ -3,21 +3,22 @@ body {
 }
 .form {
 	background-color: #fff;
-	padding: 38px;
+	padding: 40px 26px;
 	display: inline-block;
 	border: solid 2px #cfdede;
 	margin-left: 110px;
 	margin-top: 50px;
 }
 .form-header {
+	position: absolute;
 	border: none;
 	background-color: #01b3b3;
 	color: #fff;
 	font-size: 12px;
 	font-weight: 900;
 	text-transform: uppercase;
-	display: inline-block;
-	padding: 8px 10px;
+	padding: 5px 9px;
+	top: 43px;
 }
 
 .form_text {
@@ -41,7 +42,7 @@ body {
 	border-radius: 5px;
 	background-color: #01b3b3;
 	width: 260px;
-	margin: 30px auto;
+	margin: 32px auto;
 	margin-bottom: -20px;
-	padding: 18px 15px;
+	padding: 14px 15px;
 }
