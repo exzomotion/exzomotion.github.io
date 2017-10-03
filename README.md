@@ -27,3 +27,5 @@
 [Практика 2](https://exzomotion.github.io/practice_2/)
 
 [Урок 15](https://exzomotion.github.io/lesson_15/)
+
+[Практика 3](https://exzomotion.github.io/practice_3/)
