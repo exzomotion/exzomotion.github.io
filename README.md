@@ -32,4 +32,4 @@
 
 [Урок 16](https://exzomotion.github.io/lesson_16/)
 
-[Практика 4](https://exzomotion.github.io/practice_5/)
+[Практика 4](https://exzomotion.github.io/practice_4/)
