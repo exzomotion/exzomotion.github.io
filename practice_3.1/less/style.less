@@ -67,6 +67,10 @@ button, input, a {
 		background-color: darken(@btn-color, 5%);
 	}
 }
+.mobile-btn {
+	display: none !important;
+}
+
 
 /* Typography */
 section {
@@ -203,6 +207,9 @@ section {
 		padding-bottom: 3rem;
 		text-align: center;
 	}
+	.mobile-btn {
+		display: none !important;
+	}
 }
 
 @media (max-width: 767px) {
@@ -215,19 +222,35 @@ section {
 	}
 	}
 	.header {
+		margin-top: -3rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
 		text-align: center;
 		background-color: white;
+		display: block;
 	}
 	.wrap-block {
 		text-align: center;
 	}
+	.mobile-btn {
+		margin-right: 1rem;
+		display: inline !important;
+	}
+	.btn-320 {
+		disblay: none !important;
+	}
 	.logo {
 		position: absolute;
-		margin-top: 9rem;
-		text-align: center;
-
+		top: 9rem;
+		display: block;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	.phone-link {
 		font-size: 1.5rem;
+	}
+	.phone-block {
+		text-align: left;
+		margin-left: 1.5rem;
 	}
 }

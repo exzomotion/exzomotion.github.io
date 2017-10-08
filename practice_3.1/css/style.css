@@ -37,12 +37,14 @@ a:focus {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .button:hover {
   cursor: pointer;
   background-color: #e7a301;
+}
+.mobile-btn {
+  display: none !important;
 }
 /* Typography */
 section {
@@ -121,8 +123,7 @@ section {
 .main-form label {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
   background-color: #ffffff;
@@ -175,6 +176,9 @@ section {
     padding-bottom: 3rem;
     text-align: center;
   }
+  .mobile-btn {
+    display: none !important;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -185,18 +189,35 @@ section {
     margin-top: 10rem;
   }
   .header {
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
     text-align: center;
     background-color: white;
+    display: block;
   }
   .wrap-block {
     text-align: center;
   }
+  .mobile-btn {
+    margin-right: 1rem;
+    display: inline !important;
+  }
+  .btn-320 {
+    disblay: none !important;
+  }
   .logo {
     position: absolute;
-    margin-top: 9rem;
-    text-align: center;
+    top: 9rem;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .phone-link {
     font-size: 1.5rem;
+  }
+  .phone-block {
+    text-align: left;
+    margin-left: 1.5rem;
   }
 }
