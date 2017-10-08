@@ -26,7 +26,8 @@ a:hover {
 }
 button:focus,
 input:focus,
-a:focus {
+a:focus,
+textarea:focus {
   outline: none;
 }
 .button {
@@ -122,6 +123,7 @@ section {
   margin: 2rem 0;
   width: 100%;
   border: 1px solid #dddddd;
+  border-radius: 5px;
   padding: 1.5rem;
 }
 .main-form label {
@@ -212,6 +214,49 @@ section {
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
 }
+/* оформление модальных окон */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
 @media (max-width: 991px) {
   .main {
     background-position: top right;
@@ -225,6 +270,11 @@ section {
   .main-title {
     padding-bottom: 3rem;
     text-align: center;
+  }
+}
+@media (max-width: 991px) and (max-width: 510px) {
+  .main-content h1 {
+    font-size: 1rem;
   }
 }
 @media (max-width: 767px) {
