@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <button class="btn btn-success" data-toggle="modal" data-target="#my-modal">Удалить файл</button>
+  </div>
+
+      <!-- модальное окно -->
+  <div class="modal fade" id="my-modal">
+    <!-- белое модальное окно -->
+    <div class="modal-dialog">
+      <!-- содержимое -->
+      <div class="modal-content">
+        <!-- шапка модального окна -->
+        <div class="modal-header">
+          <!-- кнопка закрыть -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <!-- заголовок модального окга -->
+          <h4 class="modal-title">Удалить файл</h4>
+        </div>
+       <!--  тело модального окга -->
+        <div class="modal-body">
+          <p>Вы действительно  хотите удалить файл?&hellip;</p>
+        </div>
+      <!--   подвал модального окна -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Да</button>
+          <button type="button" class="btn btn-primary">Нет</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  
+</body>
+</html>
