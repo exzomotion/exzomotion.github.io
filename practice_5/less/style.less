@@ -67,6 +67,9 @@ button, input, a, textarea {
 		background-color: darken(@btn-color, 5%);
 	}
 }
+.wrap-mobile {
+  display: none !important;
+}
 
 /* Typography */
 section {
@@ -246,7 +249,7 @@ section {
 
 
 /* оформление модальных окон */
-.popup{
+.popup {
 	display: none;
 	position: fixed;
 	left: 0;
@@ -307,20 +310,91 @@ section {
 		padding-bottom: 3rem;
 		text-align: center;
 	}
+	.wrap-mobile {
+		display: none !important;
+	}
 }
 
 @media (max-width: 767px) {
 	.main {
 		background-position: top left;
-	h1 {
-		font-size: 2.2rem;
-		margin-bottom: 3rem;
-	}
+	
+		h1 {
+			font-size: 2.2rem;
+			margin-top: 10rem;
+		}
 	}
 	.header {
+		margin-top: -3rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
 		text-align: center;
+		background-color: white;
+		display: block;
+	}
+	.header-btn {
+	  margin-top: 0.5rem;
 	}
 	.wrap-block {
 		text-align: center;
 	}
+	.logo {
+		position: absolute;
+		top: 9rem;
+		display: block;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.phone-link {
+		font-size: 1.5rem;
+	}
+	.phone-block {
+		text-align: left;
+		margin-left: 1.5rem;
+	}
+}
+
+@media (max-width: 478px) {
+ .main {
+    background-position: top left;
+  }
+  	h1 {
+    	font-size: 2.2rem;
+    	margin-top: 10rem;
+  }
+  .header {
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    text-align: center;
+    background-color: white;
+    display: block;
+  }
+  .header-btn {
+    margin-top: 1.5rem;
+  }
+  .wrap-block {
+    text-align: center;  }
+  .wrap {
+    display: none !important;
+  }
+  .wrap-mobile {    
+    display: inline !important;    
+  }
+  
+  .logo {
+    position: absolute;
+    top: 9rem;
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .phone-link {
+    font-size: 1.5rem;
+  }
+  .phone-block {
+    text-align: left;
+    margin-left: 1.5rem;
+  } 
 }

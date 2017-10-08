@@ -38,11 +38,15 @@ textarea:focus {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .button:hover {
   cursor: pointer;
   background-color: #e7a301;
+}
+.wrap-mobile {
+  display: none !important;
 }
 /* Typography */
 section {
@@ -128,7 +132,8 @@ section {
 .main-form label {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
   background-color: #ffffff;
@@ -194,7 +199,8 @@ section {
 }
 .arrow {
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   position: absolute;
   z-index: 99;
   width: 2rem;
@@ -229,7 +235,8 @@ section {
   left: 50%;
   top: 10%;
   background-color: #ffffff;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   padding: 4rem 6rem;
 }
 .popup-form {
@@ -267,6 +274,9 @@ section {
     padding-bottom: 3rem;
     text-align: center;
   }
+  .wrap-mobile {
+    display: none !important;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -274,12 +284,79 @@ section {
   }
   .main h1 {
     font-size: 2.2rem;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
   }
   .header {
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
     text-align: center;
+    background-color: white;
+    display: block;
+  }
+  .header-btn {
+    margin-top: 0.5rem;
   }
   .wrap-block {
     text-align: center;
+  }
+  .logo {
+    position: absolute;
+    top: 9rem;
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .phone-link {
+    font-size: 1.5rem;
+  }
+  .phone-block {
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 478px) {
+  .main {
+    background-position: top left;
+  }
+  h1 {
+    font-size: 2.2rem;
+    margin-top: 10rem;
+  }
+  .header {
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    text-align: center;
+    background-color: white;
+    display: block;
+  }
+  .header-btn {
+    margin-top: 1.5rem;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .wrap {
+    display: none !important;
+  }
+  .wrap-mobile {
+    display: inline !important;
+  }
+  .logo {
+    position: absolute;
+    top: 9rem;
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .phone-link {
+    font-size: 1.5rem;
+  }
+  .phone-block {
+    text-align: left;
+    margin-left: 1.5rem;
   }
 }
