@@ -231,6 +231,9 @@ section {
   .main {
     background-position: top left;
   }
+  .main h1 {
+    font-size: 2.2rem;
+  }
   .header {
     text-align: center;
   }
