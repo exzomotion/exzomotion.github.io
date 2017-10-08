@@ -33,3 +33,5 @@
 [Урок 16](https://exzomotion.github.io/lesson_16/)
 
 [Практика 4](https://exzomotion.github.io/practice_4/)
+
+[Урок 17](https://exzomotion.github.io/lesson_17/)
