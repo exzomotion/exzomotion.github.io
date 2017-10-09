@@ -1,0 +1,50 @@
+body {
+  background: url(../img/bg.jpg)
+}
+
+h3, .header {
+  text-align: center;
+  color: #0bbaf0;
+  text-transform: uppercase;
+
+}
+h3 {
+  padding-top: 50px;
+  font-weight: 800;
+}
+hr {
+  width: 120px;
+  height: 1px;
+}
+.collap {
+  font-size: 16px;
+}
+#headingOne {
+  text-align: center;
+  background-color: #0bbaf0;
+  color: #fff;
+}
+#headingTwo {
+  text-align: center;
+  background-color: #0bbaf0;
+  color: #fff;
+}
+#headingThree {
+  text-align: center;
+  background-color: #0bbaf0;
+  color: #fff;
+}
+#headingFour {
+  text-align: center;
+  background-color: #0bbaf0;
+  color: #fff;
+}
+#headingFive {
+  text-align: center;
+  background-color: #0bbaf0;
+  color: #fff;
+}
+a:focus, a:hover {
+    font-weight: 800;
+    text-decoration: none;
+}
