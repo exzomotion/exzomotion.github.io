@@ -39,3 +39,7 @@
 [Урок 17](https://exzomotion.github.io/lesson_17/)
 
 [Практика 5](https://exzomotion.github.io/practice_5/)
+
+[Урок 18](https://exzomotion.github.io/lesson_18/)
+
+[Урок 18.1](https://exzomotion.github.io/lesson_18.1/)
