@@ -43,3 +43,5 @@
 [Урок 18](https://exzomotion.github.io/lesson_18/)
 
 [Урок 18.1](https://exzomotion.github.io/lesson_18.1/)
+
+[Практика 6](https://exzomotion.github.io/practice_6/)
