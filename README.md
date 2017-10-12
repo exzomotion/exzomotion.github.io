@@ -45,3 +45,11 @@
 [Урок 18.1](https://exzomotion.github.io/lesson_18.1/)
 
 [Практика 6](https://exzomotion.github.io/practice_6/)
+
+
+
+[Практика 7](https://exzomotion.github.io/practice_7/)
+
+[Урок 20](https://exzomotion.github.io/lesson_20/)
+
+[Практика 8](https://exzomotion.github.io/practice_8/)
