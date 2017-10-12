@@ -46,7 +46,7 @@
 
 [Практика 6](https://exzomotion.github.io/practice_6/)
 
-
+[Урок 19](https://exzomotion.github.io/lesson_19/)
 
 [Практика 7](https://exzomotion.github.io/practice_7/)
 
