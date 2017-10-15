@@ -59,3 +59,5 @@
 [Практика 9](https://exzomotion.github.io/practice_9/)
 
 [Урок 22](https://exzomotion.github.io/lesson_22/)
+
+[Практика 10](https://exzomotion.github.io/practice_10/)
