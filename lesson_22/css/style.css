@@ -1,0 +1,53 @@
+
+.contacts {
+	position: absolute;
+	width: 380px;
+	height: 430px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	left: 22%;
+}
+.adress {
+	position: absolute;
+	top: 10%;
+	left: 23%;
+}
+.adress p {
+	padding: 15px;
+}
+.adress a {
+	color: white;
+	text-decoration: underline;
+}
+.footer-img {
+	margin-left: 415px;
+	margin-right: 10px;
+	margin-top: 7px;
+	float: left;
+}
+.fire-1 {
+	font-weight: 700;
+	margin-top: 5px;
+	display: inline-block;
+}
+.fire-2 {
+	display: inline-block;
+	text-align: center;
+	margin-left: 200px;
+	color: gray;
+}
+.adress-2 {
+	display: inline-block;
+	margin-left: 200px;
+	text-align: right;
+}
+.adress-2 span {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+}
+.adress-2 p {
+	font-weight: 700;
+	font-size: 14px;
+}
