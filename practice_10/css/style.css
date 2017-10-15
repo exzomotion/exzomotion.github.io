@@ -38,6 +38,7 @@ textarea:focus {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .button:hover {
@@ -63,7 +64,8 @@ textarea:focus {
 .form label {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
   background-color: #ffffff;
@@ -208,7 +210,8 @@ section {
 }
 .arrow {
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   position: absolute;
   z-index: 99;
   width: 2rem;
@@ -240,7 +243,8 @@ section {
   padding: 1rem 3rem 4rem;
   min-height: 50rem;
   background-color: #ffffff;
-  box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+          box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
   text-align: center;
 }
 .price-block h4 {
@@ -313,7 +317,8 @@ section {
 .feedback-slider {
   padding: 5rem 6rem;
   background-color: #ffffff;
-  box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+          box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
 }
 .feedback-slider .media {
   margin-top: 3rem;
@@ -328,7 +333,8 @@ section {
 .feedback-slider-btn {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 4rem;
   height: 5rem;
   background-color: #44b413;
@@ -349,7 +355,8 @@ section {
   font-size: 2rem;
 }
 .feedback-form label {
-  transform: translate(-50%, 8px);
+  -webkit-transform: translate(-50%, 8px);
+          transform: translate(-50%, 8px);
 }
 .feedback-btn {
   max-width: 30rem;
@@ -444,7 +451,8 @@ section {
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 3rem;
   height: 3rem;
 }
@@ -465,6 +473,9 @@ section {
   background: url(../img/problems/checked-symbol.svg) center no-repeat;
   background-size: 70%;
 }
+.problems-mobile {
+  display: none !important;
+}
 /* оформление модальных окон */
 .popup {
   display: none;
@@ -483,7 +494,8 @@ section {
   left: 50%;
   top: 10%;
   background-color: #ffffff;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   padding: 4rem 6rem;
 }
 .popup-form {
@@ -553,7 +565,8 @@ section {
     margin-bottom: 0;
   }
   .feedback-form label {
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .hand {
     display: none;
@@ -592,7 +605,8 @@ section {
     top: 9rem;
     display: block;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .phone-link {
     font-size: 1.5rem;
@@ -659,7 +673,8 @@ section {
     font-size: 1.2rem;
   }
   .feedback-form label {
-    transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+            transform: translate(-50%, -40%);
     font-size: 1.2rem;
   }
   .feedback-form h3 {
@@ -679,6 +694,7 @@ section {
     display: none;
   }
   .problems-mobile {
+    display: inline !important;
     padding: 0rem;
   }
   .section-header-mobile h2 {
